@@ -8,7 +8,7 @@
 body {
     padding-top: 1rem;
     padding-right: 2rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .logo {
@@ -100,11 +100,16 @@ button:hover {
 }
 
 @media screen and (max-width: 800px) {
+
+    .container{
+        flex-direction: column;
+    }
+
     .big-cup {
-        display: none;
+        width: 160px;
     }
 
     .circle {
-        display: none;
+        display: none; /* Esconde o circle em telas menores que 800px */
     }
 }
