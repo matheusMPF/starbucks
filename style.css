@@ -7,7 +7,7 @@
 
 body {
     padding-top: 1rem;
-    padding-right: 2rem;
+    padding-right: 3rem;
     padding-left: 3rem;
 }
 
@@ -62,7 +62,7 @@ button:hover {
 .box-img {
     width: 100%;
     max-width: 600px;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .big-cup {
